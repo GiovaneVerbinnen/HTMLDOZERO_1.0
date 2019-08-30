@@ -1,0 +1,97 @@
+/*=========== RESET ==========*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Aldrich');
+*{margin: 0; padding: 0; font-size: 100%; border: none; outline: none; font-weight: 300; box-sizing: border-box; font-family: 'Roboto', sans-serif;}
+body {background-color: #f9f9f9;}
+a {text-decoration: none;}
+ul {list-style: none;}
+img {max-width: 100%;}
+fieldset {border: 0;}
+hr{margin-bottom: 50px}
+/*------------ PRESETS ------------*/
+.container {width: 100%; float: left; padding: 2% 5%;}
+.radius{border-radius: 8px;}
+.textJust{text-align: justify;}
+.textCenter{text-align: center;}
+.imgcenter{ display: flex; justify-content: center;}
+.fundo-branco{background-color: #fff;}
+.box-shadow{box-shadow: 0px 0px 5px rgba(0,0,0,.3);}
+.left{float: left;}
+.titulo{background-color: #eeeeee; padding: 1%; color: #646464; margin: 1%; padding-left: 2%;}
+.img-center{width: 100%; margin:0%; padding: 5%; height: auto;}
+article i{ margin: 13% 0% 13% 25%;}
+h1{font-size: 2em;}
+h2{font-size: 1.75em;}
+h3{font-size: 1.6em;}
+h4{font-size: 1.4em;}
+h5{font-size: 1.35em;}
+h6{font-size: 1.3em;}
+.Aldrich {font-family: 'Aldrich', sans-serif;}
+/*------------ UX-UI ------------*/
+.tela-leitura {line-height: 1.45em; font-size: 1.1em;}
+/*------------ LAYOUT-3COL ------------*/
+.col3L,.col6L,.col12  { float: left; margin-right: 1%;  margin-bottom:2em;}
+.col3L {width: 32%;}
+.col6L {width: 65%;}
+.col12L {width: 98%;}
+/*------------ LAYOUT-CUSTOM ------------*/
+.pad1{padding: 1%;}
+.pad2{padding: 2%;}
+.pad3{padding: 3%;}
+.pad4{padding: 4%;}
+.pad5{padding: 5%;}
+.mar1{margin: 1%;}
+.mar2{margin: 2%;}
+.mar3{margin: 3%;}
+.mar4{margin: 4%;}
+.mar5{margin: 5%;}
+/*------------ PALETA-COR------------*/
+.blue{background-color: #006AC6;  border-left: 2em solid #1B3AC4;color: #fffafa;}
+.red{ background-color:#fa5252;  border-left: 2em solid #ED2121; color: #fffafa; }
+.green{ background-color:#33cd77;  border-left: 2em solid #00893B; color: #fffafa; }
+.yellow{background-color:#F7F762; border-left: 2em solid #D8D841; color: #333;}
+.white{color:white;}
+.c-white{background-color:#FCFEFF; border-left: 2em solid #ddd; color: #333;}
+/*------------ CARDS ------------*/
+.card{padding: 1em;margin-bottom:1em;border-radius: 5px; box-shadow: 0px 0px 5px rgba(0,0,0,.3); float: left; }
+.card p{padding-top: 1em; text-shadow: 1px 1px 1px rgba(0,0,0,0.5); font-size: 1.1em; }
+.card h4{font-size: 2.35em; text-shadow: 1px 1px 1px rgba(0,0,0,0.5);}
+.card i{ float: left; padding:20px;}
+/*------------ HEADER-CABECALHO ------------*/
+.logo{font-family: 'Lobster', cursive; font-size: 5em; margin: 1% 5%; float: left; text-shadow: 1px 1px 5px black;}
+.cabecalho header form{float:right; width: 30%;  margin: 3.5% 7%; box-shadow: 3px 3px 5px rgba(0,0,0,.1); }
+.cabecalho input[type="text"] {width: 85%; float: left; padding: 3% 3%;}
+.cabecalho button{ width: 15%; float: right; padding: 3%; background-color: #aaa; color: #fff; cursor: pointer;}
+/*------------ MENU ------------*/
+nav.menu{text-transform: uppercase;width: 100%;float: left; font-size: 1.3em;}
+nav.menu ul { list-style-type:none; overflow: hidden; background-color:#333;}
+li {float: left; }
+li:first-child {margin-left: 5%;}
+li a { display: inline-block; color: white; text-align: center; padding: 15px 20px;text-decoration: none;}
+li a:hover {background-color: #5E5E5E;transition-property: background-color; transition-duration: 0.3s;}
+.active {  background-color: #111;}
+nav.menu i{padding-right: 0.3em;}
+/*------------ BLOG ------------*/
+article .artigo{box-shadow:0px 0px 10px rgba(0,0,0,.3); margin:0%;  padding:1%; display:block; float:left; }
+article .artigo img, .lateral img {padding: 3%;}
+article .artigo h4{width: 75%;}
+/*------------ HOME ------------*/
+.conteudo {padding: 5%;}
+.conteudo p {border-top: 1px solid black; margin-top: 6%;  padding-top: 5%; }
+.conteudo span{font-size: 1.1em; color: #006AC6;}
+/*------------ LATERAL ------------*/
+.lateral{float: right; margin-right: 2%; }
+iframe{width:100%; height:485px; }
+audio{width: 100%;}
+/*------------ FOOTER ------------*/
+footer.rodape{width: 100%;  font-size: 1.5em; padding: 2em; background-color: #333; margin-top: 2%; box-shadow: 0px 0px 10px rgba(0,0,0,1);}
+/*------------ FORMULÁRIO ------------*/
+.contato{float: left; background-color: #fa5252; box-shadow: 0px 0px 10px rgba(0,0,0,.5); font-size: 1.4em; align-items: center; justify-content: center; color:white;}
+.contato h4{ padding: 1%;font-size: 2em;color: white;margin: 4%;}
+.formContato {width: 100%;padding: 1%;background-color: white; padding-top:5%; border-radius: 0px 0px 5px 5px;}  
+.formContato input, textarea {width: 90%;margin: 1%;margin: 1% 4%;padding: 1%;color: #292929;font-size: 18px;background-color: #E9E9E9;border: 1px solid #E9E9E9;}  
+.formContato input {height: 40px;}  
+.formContato textarea {height: 5em;resize: vertical;}
+.botaoContato {margin: 5%  0%  5% 35%; width: 5em; height: 2em; border-radius: 5px;color: #fff;cursor: pointer;	background: #33cd77;border: none;}  
