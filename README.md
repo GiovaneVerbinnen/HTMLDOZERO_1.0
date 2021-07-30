@@ -1,3 +1,5 @@
 # HTMLDOZERO_1.0
 
-Projeto destinado ao apoio para meus livros sobre desenvolvimento.
+##Live Link: https://giovaneverbinnen.github.io/HTMLDOZERO_1.0/
+
+Projeto sobre desenvolvimento web.
